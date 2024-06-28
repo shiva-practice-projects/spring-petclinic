@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-/*package org.springframework.samples.petclinic;
+package org.springframework.samples.petclinic;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
@@ -25,7 +25,6 @@ import java.util.List;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.junit.Ignore;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.condition.DisabledInNativeImage;
@@ -79,14 +78,12 @@ public class PostgresIntegrationTests {
 	}
 
 	@Test
-	@Ignore
 	void testFindAll() throws Exception {
 		vets.findAll();
 		vets.findAll(); // served from cache
 	}
 
 	@Test
-	@Ignore
 	void testOwnerDetails() {
 		RestTemplate template = builder.rootUri("http://localhost:" + port).build();
 		ResponseEntity<String> result = template.exchange(RequestEntity.get("/owners/1").build(), String.class);
@@ -141,4 +138,3 @@ public class PostgresIntegrationTests {
 	}
 
 }
-*/
