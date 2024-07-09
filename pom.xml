@@ -17,12 +17,12 @@
 		<snapshotRepository>
 			<id>nexus</id>
 			<name>Nexus Example Sanpshot</name>
-			<url>http://20.83.185.146:8081/repository/spring-petclinic-snapshot/</url>
+			<url>http://10.2.0.8:8081/repository/spring-petclinic-snapshot/</url>
 		</snapshotRepository>
 		<repository>
 			<id>nexus</id>
 			<name>Nexus Example Release</name>
-			<url>http://20.83.185.146:8081/repository/spring-petclinic-release/</url>
+			<url>http://10.2.0.8:8081/repository/spring-petclinic-release/</url>
 		</repository>
 	</distributionManagement>
   <properties>
