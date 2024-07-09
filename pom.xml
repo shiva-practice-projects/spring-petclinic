@@ -13,7 +13,18 @@
     <version>3.3.0</version>
   </parent>
   <name>petclinic</name>
-
+<distributionManagement>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>Nexus Example Sanpshot</name>
+			<url>http://20.83.185.146:8081/repository/spring-petclinic-snapshot/</url>
+		</snapshotRepository>
+		<repository>
+			<id>nexus</id>
+			<name>Nexus Example Release</name>
+			<url>http://20.83.185.146:8081/repository/spring-petclinic-release/</url>
+		</repository>
+	</distributionManagement>
   <properties>
 
     <!-- Generic properties -->
